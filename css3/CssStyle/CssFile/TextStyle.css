@@ -1,0 +1,29 @@
+body h1{
+    color: cadetblue;
+}
+
+#pid{
+    color: blueviolet;
+    /* 对齐方式 */
+    text-align: center;
+}
+h3{
+    /* 首行缩进2em 2字符 */
+    text-indent: 2em;
+}
+#pid_trans0{
+    text-transform: capitalize;
+}
+#pid_trans1{
+    text-transform: lowercase;
+}
+#pid_trans2{
+    text-transform: uppercase;
+}
+#pid_1{
+    text-shadow: 5px 5px 1px rgb(0, 102, 255);
+}
+#pid_2{
+    width: 100px;
+    text-wrap: normal;
+}
