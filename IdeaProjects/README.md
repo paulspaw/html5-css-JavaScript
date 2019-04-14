@@ -1,4 +1,4 @@
-//HTML 新特性
+## HTML 新特性
     1.用于绘画的canvas标签
     2.用与媒介回放的video和audio元素
     3.对本地里先出存的更好支持
@@ -6,7 +6,7 @@
     5.新的表单控件
     6.浏览器的支持
 
-//基础讲解 index.html
+## 基础讲解 🌰：index.html
     1.声明：
         <!DOCTYPE html>
     2.基础标签
@@ -17,12 +17,12 @@
     	<p>标签定义段落 后面添加的文字会新起一行
     5.链接
     	<a>标签定义链接
-    	eg. <a href="http://www.google.com">search machine</a>
+    	eg. <a href="http:## www.google.com">search machine</a>
     6.图像
     	<img>标签定义图像
     	<img src = "image/test.jpg">
 
-//html元素
+## html元素
 	1.元素是指从开始标签到结束标签的所有代码
 	开始标签		元素内容		结束标签
 	<p>		test content	</p>
@@ -35,7 +35,7 @@
 
 	3.嵌套的html元素
 		大多数的html元素都是可以嵌套的
-//html属性
+## html属性
 	1.标签可以拥有属性为元素提供更多的信息
 	2.属性以 键/值对 的形式出现 eg. href = "www.google.com"
 	3.常用标签属性
@@ -48,7 +48,7 @@
 		style: 规定元素的样式
 		title: 规定元素的额外信息
 
-//html格式化
+## html格式化
 	<b> 定义粗体文本
 	<big> 定义大号字
 	<em>  定义着重文字
@@ -60,7 +60,7 @@
 	<ins> 定义插入字
 	<del> 定义删除字
 
-//html5样式，链接和表格 🌰: DefStyle.html
+## html5样式，链接和表格 🌰: DefStyle.html
 	1.样式
 		1.标签：
 			<style> 样式定义
@@ -94,7 +94,7 @@
 		<dl> 列表
 		<dt> 列表项
 		<dd> 描述
-		//常用列表
+		## 常用列表
 			1.有序列表
 				1.标签 <ul>,<li>
 				2.属性 disc, circle, square
@@ -129,7 +129,7 @@
 			<button> 按钮
 	7.html5表单与php交互 🌰：PhpInteractForm.html
 
-//html5 框架 🌰： DefFrame.html
+## html5 框架 🌰： DefFrame.html
 	1.框架标签(frame)：
 		框架对于页面的设计有着很大的作用
 	2.框架集标签(<frameset>)：
@@ -142,7 +142,7 @@
 		rows：行
 	4.内联框架 iframe (⚠️主要)
 
-//html5 背景 🌰：DefBackground.html
+## html5 背景 🌰：DefBackground.html
 	1.背景标签 backgroud
 	2.背景颜色 bgcolor
 	3.颜色：
@@ -152,11 +152,11 @@
 		红色：#FF0000
 		绿色：#00FF00
 		蓝色：#0000FF
-//html5 实体 🌰：DefEntity.html
+## html5 实体 🌰：DefEntity.html
 	1.实体： html中预留字符串必须被替换成字符实体
 		eg. < , > , & 转义
 
-//XHTML 🌰： XHTMLDemo.html
+## XHTML 🌰： XHTMLDemo.html
 	1.定义 & 特性: 
 		1.指可扩展的超文本标记语言
 		2.与HTML4.01几乎是相同的
@@ -181,7 +181,7 @@
 		2.必须用引号包围
 		3.最小化也是禁止的
 
-//html5与html4的区别
+## html5与html4的区别
 	1.推出的理由和目标
 		1.web浏览器之间的兼容性很低
 		2.文档结构不够明确
@@ -204,14 +204,14 @@
 			⚠️：article元素更加强调独立性，section元素强调的是分段或分块
 				如果一块内容相较于比较独立，使用article元素
 				如果将一块内容分为几段，使用section元素
-		//⚠️小结⚠️： 🌰：NewElementNav.html
+		## ⚠️小结⚠️： 🌰：NewElementNav.html
 			1.不要讲section元素作为设置样式页面的容器 - div的工作
 			2.如果 article元素，aside元素或nav元素 更符合使用条件 请不要使用 section元素
 			3.不要为没有标题的区域块使用section元素，section是要存在一个标题的
 		3.nav元素 
 			是可以用作页面导航的链接组，其中的导航元素链接到其他页面或当前页面的其他部分。
 			并不是所有的链接组都要被放进nav元素，只需要将主要的，基本的链接组放进nav元素即可
-			//应用场景：
+			## 应用场景：
 				传统导航条
 				侧边栏导航
 				业内导航
@@ -279,8 +279,8 @@
 			使用indeterminate属性，以说明复选框处于"尚未明确是否选取"状态
 		16.image提交按钮的height属性与width属性
 			针对类型为image的input元素，html5新增了两个属性，height、width分别用来指定图片按钮的高度和宽度。
-// html5的结构
-	//大纲编排规则 🌰：Demo.html
+##  html5的结构
+	## 大纲编排规则 🌰：Demo.html
 		1.显式编排的内容区域块： 明确的使用section等元素创建文档结构，在每个区域块使用标题 eg. h1-h6，hgroup等
 		2.隐式编排的内容区域块：不明确使用section等元素，而是根据网页需求而使用标题，把个体内容区域块自动创建出来
 		3.标题分级： h1-h6 级别不同, 新的标题比上面标题级别低，将生成下级内容区域块
