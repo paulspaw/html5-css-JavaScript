@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>index</title>
     <link rel="stylesheet" href="MyCss.css" type="text/css" rel="stylesheet">
+    <!-- 属性选择器 -->
+    <style type="text/css">
+        [title]{
+            color: darkcyan;
+        }
+        /*属性和值选择器*/
+        [title=te]{
+            color: blueviolet;
+        }
+    </style>
 </head>
 <body>
     <h1>应用样式表</h1>
@@ -26,5 +36,12 @@
 
     <!-- 类选择器 -->
     <p class="pclass">类选择器p标签</p>
+    <!-- 类选择器和派生选择器结合 -->
+    <div class="div_class"><a href="##">google</a></div>
+
+    <!-- 属性选择器 -->
+    <p title="t">属性选择器</p>
+    <!-- <p title="te1">属性选择器</p> -->
+    <p title="te">属性和值选择器</p>
 </body>
 </html>

@@ -1,0 +1,16 @@
+body{
+    background-image: url("../image/background.jpg");
+    /* background-repeat  */
+    background-repeat: no-repeat;
+    /* background-position  */
+    /* right的时候 代表 right和center */
+    /* background-position: right top; */
+    /* background-position: center top; */
+    /* "fixed" 不滚动 */
+    background-attachment: fixed;
+    
+}
+/* 单独给标签加背景 */
+#pid{
+    background-image: url("../image/download.jpeg");
+}

@@ -1,0 +1,10 @@
+/* background-color */
+body{
+    background-color: cadetblue;
+}
+p{
+    background-color: coral;
+    width: 200px;
+    /* 内间距 */
+    padding: 10px;
+}
