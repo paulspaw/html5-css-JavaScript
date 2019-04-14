@@ -277,7 +277,7 @@
 		15.复选框的indeterminate属性 🌰：NewForm.html
 			对于复选框checkbox元素来说，过去只是选取与非选取这两种状态。在html5中，可以在javascript脚本代码中对该元素
 			使用indeterminate属性，以说明复选框处于"尚未明确是否选取"状态
-		16.image提交按钮的height属性与width属性
+		16.image提交按钮的height属性与width属性 🌰：Image.html
 			针对类型为image的input元素，html5新增了两个属性，height、width分别用来指定图片按钮的高度和宽度。
 ##  html5的结构
 	## 大纲编排规则 🌰：Demo.html
