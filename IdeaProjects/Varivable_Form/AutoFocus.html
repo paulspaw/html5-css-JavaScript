@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AutoFocus</title>
+</head>
+<body>
+     <!-- trim()为空格判断 -->
+     <script>
+            function Validate(){
+                var txtName = document.getElementById("txt_name")
+                var button = document.getElementById("btnValiadate")
+                var form = document.getElementById("testform")
+                
+                if(txtName.value.trim()== ""){
+                    var label = document.createElement("label")
+                    label.setAttribute("for","txt_name")
+                    form.insertBefore(label,button)
+                    txtName.labels[0].innerHTML = "place name";
+                    txtName.labels[0].setAttribute("style","front-size:9px;color:red")
+                }
+            }
+        </script>
+    <form id="testform">
+        <input type="text" >
+        <input type="text" autofocus>
+        <input type="text" required>
+        <button type="submit">submit</button>
+        <!-- labels属性 -->
+        <label id="label" form="txt_name">name</label>
+        <input id="txt_name">
+        <input type="button" id="btnValiadate" value="check" onclick="Validate()">
+    </form>
+</body>
+</html>

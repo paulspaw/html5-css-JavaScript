@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewForm</title>
+</head>
+<body>
+    <script>
+        function setValue(){
+            var label = document.getElementById("textlabel");
+            var textbox = label.control;
+            textbox.value = "100010"
+        }
+    </script>
+    <form id="testform">
+        <label id="textlabel">
+            post code:
+            <input id="txt_zip" maxlength="6">
+            <small>input 6 number</small>
+            <input type="button" value="default value" onclick="setValue()">
+            <br/>
+            <!-- placeholder作用 -->
+            user name:
+            <input type="text" placeholder="user name">
+        </label>
+    </form>
+
+    <!-- 文本框的list属性 --><!-- 文本框的AutoComplete属性 -->
+    <form id = "testform2">
+        <input type="text" name="greeting" autocomplete="" list="greetings">
+        <datalist id="greetings" style="display: none;">
+            <option value="html学习"></option>
+            <option value="js学习"></option>
+            <option value="css学习"></option>
+        </datalist>
+    </form>
+    <form id = "testform2">
+        <input type="text" name="greeting" autocomplete="off" list="greetings">
+        <datalist id="greetings" style="display: none;">
+            <option value="html学习"></option>
+            <option value="js学习"></option>
+            <option value="css学习"></option>
+        </datalist>
+    </form>
+
+    <!-- 复选框的indeterminate属性 -->
+    <input type="checkbox" indeterminate id="cb">属性测试
+    <script>
+        var cd = document.getElementById("cb");
+        cb.indeterminate = true;
+    </script>
+    
+</body>
+</html>

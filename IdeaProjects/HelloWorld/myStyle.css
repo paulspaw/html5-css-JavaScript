@@ -1,0 +1,13 @@
+h1{
+    color: deepskyblue;
+}
+
+#divId p{ 
+    color: #ff3635;
+}
+#divId a{
+    color: coral;
+}
+#spanId span{
+    color: #ff27e6;
+}

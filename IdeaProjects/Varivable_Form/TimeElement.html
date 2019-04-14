@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>time element pudate char</title>
+</head>
+<body>
+    <time datetime="2019-4-1">2019-4-1</time>
+    <!-- 日期与时间用 "T"来间隔 分隔符 -->
+    <time datetime="2019-4-1T20:00">2019-4-1</time>
+    <!-- UTC标准时间用 后面加"Z" -->
+    <time datetime="2019-4-1T20:00Z">2019-4-1</time>
+    <!-- 另一个时区的时间 时差 -->
+    <time datetime="2019-4-1T20:00+09:00">2019-4-1</time>
+
+    <article>
+        <header>
+            <h1>apple</h1>
+            <p>
+                发布日期:
+                <time datetime="2019-5-1" pubdate="pubdate">2019-5-1</time>
+            </p>
+            <p>
+                舞会时间:
+                <time datetime="2019-4-2">2019-4-2</time>
+            </p>
+        </header>
+    </article>
+
+</body>
+</html>
