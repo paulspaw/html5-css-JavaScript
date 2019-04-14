@@ -1,0 +1,31 @@
+h1{
+    color: brown;
+    font-size: 50px;
+}
+/* 多个，继承 */
+h2,a{
+    color: aqua;
+}
+body{
+    color: coral
+}
+/* 派生选择器，以及被定义好的效果是不会被覆盖的 */
+li strong{
+    color: blue;
+}
+strong{
+    color: blueviolet;
+}
+
+/* id选择器 */
+#div_id{
+    color: darkgoldenrod;
+}
+/*派生选择器和id选择器混合使用 */
+#pid a{
+    color: chartreuse;
+}
+/* 类选择器 */
+.pclass{
+    color: darkgreen;
+}
