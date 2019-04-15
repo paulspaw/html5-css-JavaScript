@@ -41,7 +41,7 @@
 ## 属性选择器 🌰：./CssDemo/Concept/index.html;MyCss.css
     1.对带有指定属性的HTML元素设置样式
     2.属性和值选择器
-## css样式
+## css样式(1)
     1.背景 🌰：./CssStyle/index.html;Back*.css
         允许使用纯色作为背景，也允许使用背景图像创建相当复杂的效果
         *背景属性：
@@ -59,6 +59,42 @@
         文本属性可定义文本外观
         通过文本属性，可改变文本的颜色、字符间距，对齐文本、装饰文本、对文本缩进
 ![avatar](./CssStyle/image/TextStyle.jpg)
->```
->
->```
+##  css样式(2)
+    1.字体 🌰：./CssStyle/FontDemo.html;FontStyle.css
+        css字体属性定义文本的字体系列、大小、加粗、风格和变形
+        *属性                      描述
+        font-family             设置字体系列
+        font-size               设置字体尺寸
+        font-style              设置字体风格
+        font-variant            以小型大写字体或正常字体显示文本
+        font-weight             设置字体的粗细
+
+    2.链接： 🌰：./CssStyle/LinkDemo.html;LinkStyle.css
+        *四种状态
+        a:link  普通的、未被访问链接
+        a:visited   用户已访问的链接
+        a:hover 鼠标指针位于链接的上方
+        a:active   链接被点击的时刻
+
+        *常见的连接方式
+            text-decoration属性大多用于去掉链接中的下划线
+
+        *背景颜色 
+            background-color
+
+    3.列表 🌰：./CssStyle/ListDemo.html;ListStyle.css
+        列表属性允许你放置、改变列表标志，或者将图像作为列表项标志
+        *属性                   描述
+        list-style              简写列表项
+        list-style-image        列表项图像
+        list-style-position     列表标志位置
+        list-style-type         列表类型
+    4.表格 🌰：./CssStyle/TableDemo.html;TableStyle.css
+        表格属性可以改变表格的外观
+        *表格边框
+        *折叠边框
+        *表格宽高
+        *表格文本对齐
+        *表格内边距
+        *表格颜色
+    5.轮廓

@@ -1,0 +1,14 @@
+table.t_class,tr,td,th{
+    /* 外边框及其颜色 */
+    border: 1px solid red;
+}
+/* 折叠边框，两条线合成一条 */
+table.t_class{
+    border-collapse: collapse;
+    /* 设置宽高 */
+    width: 300px;
+    height: 300px;
+    /* 内容居中 */
+    text-align: center;
+    background-color: cadetblue;
+}

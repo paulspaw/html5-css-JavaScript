@@ -1,0 +1,7 @@
+ul{
+    /* list-style-type: georgian; */
+    list-style-image: url(../image/symbol2.png)
+}
+.u_cl{
+    list-style-position: inside;
+}
