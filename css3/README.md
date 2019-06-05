@@ -97,4 +97,22 @@
         *表格文本对齐
         *表格内边距
         *表格颜色
-    5.轮廓
+    5.轮廓 🌰：./CssStyle/OutlineDemo.html;OutlineStyle.css
+        *outline        设置轮廓属性
+        *outline-color  设置轮廓颜色
+        *outline-style  设置轮廓样式
+        *outline-width  设置轮廓宽度
+
+## css 盒子模型 
+![avatar](./CssStyle/image/BoxModel.jpg)
+##
+    1.概述
+        内容范围:
+        * margin
+        * border
+        * padding
+        * content
+    2.内边距 🌰：./CssStyle/PaddingDemo.html;PaddingStyle.css
+    3.边框
+    4.外边距
+    5.外边矩合并
